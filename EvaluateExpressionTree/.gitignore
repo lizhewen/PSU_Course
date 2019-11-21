@@ -1,1 +1,2 @@
-*.java
+# Ignore files generated from Java compilation
+*.class
