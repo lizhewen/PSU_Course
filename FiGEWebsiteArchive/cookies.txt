@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.fige.psu.edu	TRUE	/	FALSE	1999999999	xid	rB4CCV19WrWGxQCOA1MdAg==
+sites.psu.edu	TRUE	/	FALSE	1999999999	xid	rB4CCV19Wrw+9gCMA1UWAg==
+.elegantthemesimages.com	TRUE	/	FALSE	1999999999	__cfduid	daaee2c74264547b8b4ddb140428663031568496338
+

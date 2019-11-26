@@ -1,0 +1,234 @@
+/*
+ Theme Name:     Divi for PSU
+ Theme URI:      http://www.elegantthemes.com/gallery/divi/
+ Description:    A modified Divi child theme that adheres to Penn State's AD54 policy and complies with accessibility guidelines. It includes the official mark and standardized search.
+ Author:         Elegant Themes / TLT Studio
+ Author URI:     http://tltstudio.psu.edu/
+ Template:       divi
+ Version:        1.0.1
+*/
+
+@import url("../divi/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+/* LOGO AND TITLE */
+#main-header {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	}
+
+  #logo {
+    max-height: 100%;
+    margin-top: 5px;
+    }
+
+
+/* SITE TITLE BELOW LOGO */
+
+
+    .logo-site-title {
+    display: block;
+    left: 90px;
+    top: -32px;
+    position: relative;
+    color: #fff;
+    width: 60%;
+    font-size: 1.5em;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+ .et-fixed-header .logo-site-title {
+    font-size: 1.2em;
+    left: 62px;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+@media screen and (max-width: 400px) /* Mobile */ {
+  .logo-site-title {
+    left: 50px;
+    width: 80%;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 655px) /* Tablet */ {
+  .logo-site-title {
+    left: 18%;
+    width: 80%;
+    font-size: 1em;
+  }
+}
+
+/* SITE TITLE TO THE RIGHT OF LOGO
+
+    .logo-site-title {
+    position: relative;
+    margin-left: 20px;
+    color: #fff;
+    width: 60%;
+    top: -3px;
+    font-family: open sans;
+    font-size: 1.5em;
+}
+*/
+
+/* HEADER */
+#main-header {
+  background-color:#262C3A;
+  }
+
+  .et-search-form input {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    }
+
+        #main-header {
+    padding-bottom: 40px;
+    }
+
+    @media screen and (max-width: 400px) /* Mobile */ {
+   #main-header {
+    padding-bottom: 30px;
+    padding-top: 0px;
+    }
+
+  #et_top_search {
+	   display:none;
+   }
+   }
+
+       @media screen and (max-width: 980px) /* Tablet */ {
+   #et_top_search {
+	   display:none;
+   }
+}
+
+
+/* TOP MENU */
+  #top-menu a {
+  color: #fff;
+  }
+
+#et-secondary-nav li  ul {
+  background-color: transparent;
+  padding: 0px;
+}
+#et-secondary-nav > li > ul {
+  background-color: transparent;
+  padding: 2px;
+}
+#top-header, #et-secondary-nav li ul li {
+    background-color: #1173ca;
+}
+#et-secondary-nav li ul ul {
+  margin-top: 0px;
+  right: 216px;
+  padding: 0 2px 0 2px;
+}
+
+#et-secondary-nav li ul li:first-child {
+    padding-top: 1em;
+}
+#et-secondary-nav li ul li:last-child {
+    padding-bottom: 1em;
+}
+#et-secondary-nav ul > li.menu-item-has-children:first-child > a:first-child:after {
+  top: 1.50em;
+}
+
+  #top-menu li li a {
+    color: #262c3a;
+    }
+
+    #top-menu li li a:hover {
+    color: #1173ca;
+    }
+
+    .nav li ul {
+    border-top: 3px solid #1173ca;
+    }
+
+    #et-secondary-nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+    /* MAIN */
+
+  #et-main-area {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 980px) /* Mobile */ {
+#main-content .container {
+    padding-top: 0px;
+}
+}
+
+#left-area {
+    margin-top: 25px;
+}
+
+.et_pb_post h2 {
+    margin-top: 0;
+}
+
+  /* SIDEBAR */
+.et_right_sidebar #sidebar {
+    margin-top: 35px;
+}
+
+  /* FOOTER */
+  #footer-bottom {
+    background-color: #262C3A;
+    }
+
+    #footer-info {
+	    color: #fff;
+    }
+
+    #footer-info a {
+	    color: #2c76c7;
+    }
+
+    .et-social-icon a {
+    color: #fff;
+    }
+
+    #et-footer-nav {
+    background-color: #1173ca;
+    }
+
+    .bottom-nav a {
+    color: #fff;
+    }
+
+      #main-footer {
+  background-color:#262C3A;
+  }
+
+  #et_search_icon {
+	  color: #ccc;
+  }
+
+  .psu_footer_links a {
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+ .psu_footer_links a:first-child {
+    margin-left: 10px;
+}
+
+.psu_footer_links {
+	color: #fff;
+	font-weight: 600;
+}
+
+ .psu_footer_links a:hover {
+ opacity: 0.7;
+    transition: all 0.4s ease-in-out 0s;
+}
