@@ -1,4 +1,4 @@
-# FlightScheduler
+# Flight Scheduler Program
 ###### Author: Eric Zhewen Li
 ###### Contact: eric@zhewenli.com
 
