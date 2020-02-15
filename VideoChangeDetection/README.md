@@ -4,6 +4,12 @@
 
 ###### Contact: eric@zhewenli.com
 
+## Update (Feb 15, 2020)
+
+In previous version, images were not converted to floating point after input as `uint8`.  As a result, subtraction of `uint8` images is clipping values that should be negative to zero. Depending on the order of subtraction, objects either darker or brighter than the background will not be detected.
+
+To fix this, `im2double` is now used after calling `imread` function to read in images.
+
 ## Introduction
 
 This project was originally written as Project 3 for [CMPEN-454](http://www.cse.psu.edu/~rtc12/CSE486/) of Fall 2019 at Penn State University, taught by [Associate Professor Robert Collins](http://www.cse.psu.edu/~rtc12/).
