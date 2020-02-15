@@ -1,8 +1,6 @@
 % CMPEN-454 Project 3
-% Team Members:
+% Author:
 %   Eric Zhewen Li (zxl163)
-%   Qingchun Zhang (qxz5094)
-%   Xiaoxi Wang (xxw26)
 
 % main function - takes in a series of frames and outputs processed frames
 % Input - directory: folder name containing frames to be processed
@@ -41,7 +39,8 @@ function project3(directory,threshold,absAlpha,pfdGamma)
     backgroundLoc = sprintf('%s/%s',directory,folderInfo(3).name);
     
     % get first frame as background for subtraction
-    background = imread(backgroundLoc);
+    temp_background = imread(backgroundLoc);
+    background = im2double(temp_background);
     % taking the green channel to convert to greyscale
     background = background(:, :, 2);
     % for adaptive frame diff - B(0)=I(0)
